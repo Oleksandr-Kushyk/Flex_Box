@@ -1,0 +1,95 @@
+/* .container{
+    /* background-color: aqua;
+    width: 1000px;
+    height: 1000px;
+    border: 1px solid color black; 
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: 
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap:  */
+    /* display: flex; */
+
+/* .box{
+    background-color:yellow;
+    width: 200px;
+    height: 200px;
+    border: 1px solid green ;
+}
+
+.box:nth-child(1){
+    background-color: green;
+    order: 3;
+} */
+/* .box{
+    background-color:yellow;
+    width: 200px;
+    height: 200px;
+    border: 1px solid green ;
+}
+
+.wrapper{
+    display: flex;
+} */
+body{
+    width: 800px;
+}
+.start{
+    display: flex;}
+    .two{
+        display: flex;
+    }
+    .three{
+        display: flex;
+    }
+    .four{
+        display: flex;
+    }
+    .five{
+        display: flex;
+    }
+    .box{
+        background-color:yellow;
+        width: 200px;
+        height: 200px;
+        border: 1px solid green ;
+    }
+    .start{
+        .box:nth-child(2){
+            background-color: green;
+          
+        } 
+        .box:nth-child(4){
+            background-color: green;
+          
+        } 
+    }
+    .two{
+       justify-content: space-between;
+       .box:nth-child(1){
+        background-color: green;
+    } 
+
+    }
+    .three{
+        .box:nth-child(2){
+            background-color: green;
+        } 
+        .box:nth-child(4){
+            background-color: green;
+        } 
+    }
+    .four{
+        justify-content: space-between;
+        .box:nth-child(1){
+            background-color: green;
+        } 
+     }
+     .five{
+        justify-content: space-between;
+        .box:nth-child(1){
+            background-color: green;
+        } 
+     }
